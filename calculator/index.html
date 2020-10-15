@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+<main>
+  <div class="output">
+    <div data-previous-operand class="previous-operand"></div>
+    &nbsp;
+    <div data-current-operand class="current-operand"></div>
+
+  </div>
+  <div class="keys">
+    <button data-all-clear class="op__keys">AC</button>
+    <button data-delete class="op__keys">DEL</button>
+    <button data-sqrt class="op__keys">√</button>
+    <button data-operation class="op__keys">÷</button>
+    <button data-number>1</button>
+    <button data-number>2</button>
+    <button data-number>3</button>
+    <button data-operation class="op__keys">*</button>
+    <button data-number>4</button>
+    <button data-number>5</button>
+    <button data-number>6</button>
+    <button data-operation class="op__keys">+</button>
+    <button data-number>7</button>
+    <button data-number>8</button>
+    <button data-number>9</button>
+    <button data-operation class="op__keys">-</button>
+    <button data-number>.</button>
+    <button data-number>0</button>
+    <button data-operation >^</button>
+    <button data-negative class="op__keys">(+/-)</button>
+    <button data-factorial>n!</button>
+    <button data-exp>exp</button>
+    <button data-equals id="span-2" class="op__keys">=</button>
+  </div>
+</main>
+<section class="help">
+  <p>Подсказка:</p>
+  <p>1. Перевод значения из положительного в отрицательное (и обратно) осуществляется через клавишу (+/-),
+    нажатую после ввода самого значения.</p>
+  <p>2. Точка отображается после введения следующего за ней числа</p>
+  <p>Будьте здоровы!</p>
+</section>
+</body>
+</html>
